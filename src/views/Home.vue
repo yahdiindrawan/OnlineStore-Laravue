@@ -2,6 +2,8 @@
   <div class="home">
     <Header />
     <Hero />
+    <Products />
+    <Insta />
   </div>
 </template>
 
@@ -11,12 +13,16 @@
 
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
+import Products from "@/components/Products.vue";
+import Insta from "@/components/Insta.vue";
 
 export default {
   name: "Home",
   components: {
     Header,
     Hero,
+    Products,
+    Insta,
   },
 };
 </script>
